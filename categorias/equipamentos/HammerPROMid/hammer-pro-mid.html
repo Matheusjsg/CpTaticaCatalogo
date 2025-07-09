@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Equipamentos| CP Tática</title>
+  <link rel="stylesheet" href="../../../style.css" />
+</head>
+<header>
+    <div class="container">
+      <h1><img class="logo" src="../../../imagens/logo.png" alt="Logo"> Catálogo Bélico</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="../../../index.html">INÍCIO</a></li>
+          <li><a href="../../municoes/municoes.html">MUNIÇÕES</a></li>
+          <li><a href="../../equipamentos/equipamentos.html">EQUIPAMENTOS</a></li>
+          <li><a href="../../acessorios/acessorios.html">ACESSÓRIOS</a></li>
+          <li><a href="../../tiroesportivo/tiroesportivo.html">TIRO ESPORTIVO</a></li>
+          <li><a href="../../carabinas/carabinas.html">CARABINAS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> 
+  
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #ebe4e4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+
+
+    h1, h2, h3 {
+        color: #ebe4e4;
+        text-shadow: 1px 1px 2px #000;
+    }
+    ul {
+      margin-left: 35px;
+        
+    }
+.containers /**centralizando texto pag **/ { 
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.containers img {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  width: 280px;
+  margin-right: 10px;
+  border-radius: 15px;
+
+
+}
+
+
+    .carousel {
+      width: 600px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    .carousel input {
+      display: none;
+    }
+
+    .slides {
+      display: flex;
+      width: 400%; /* 4 imagens */
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+    }
+
+    .slide img {
+      width: 24%;
+      height: auto;
+      display: block;
+    }
+
+    /* Movimentação conforme o slide selecionado */
+    #slide1:checked ~ .slides {
+      transform: translateX(0%);
+    }
+    #slide2:checked ~ .slides {
+      transform: translateX(-100%);
+    }
+    #slide3:checked ~ .slides {
+      transform: translateX(-200%);
+    }
+    #slide4:checked ~ .slides {
+      transform: translateX(-300%);
+    }
+
+    /* Navegação (bolinhas) */
+    .navigation {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .navigation label {
+      width: 12px;
+      height: 12px;
+      background: #bbb;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    /* Destaque da bolinha ativa */
+    #slide1:checked ~ .navigation label:nth-child(1),
+    #slide2:checked ~ .navigation label:nth-child(2),
+    #slide3:checked ~ .navigation label:nth-child(3),
+    #slide4:checked ~ .navigation label:nth-child(4) {
+      background: #333;
+    }
+
+</style>
+
+
+
+<body>
+
+<div class="containers">
+
+
+  <div class="carousel">
+    <!-- Botões de controle -->
+    <input type="radio" name="slides" id="slide1" checked>
+    <input type="radio" name="slides" id="slide2">
+    <input type="radio" name="slides" id="slide3">
+    <input type="radio" name="slides" id="slide4">
+
+    <!-- Slides -->
+    <div class="slides">
+      <div class="slide"><img src="HammerPROMid-Ride.png" alt="Coldre Hammer PRO Mid-Ride Bélica"></div>
+      <div class="slide"><img src="001.png" alt="Coldre Hammer PRO Mid-Ride Bélica"></div>
+      <div class="slide"><img src="002.png" alt="Coldre Hammer PRO Mid-Ride Bélica"></div>
+      <div class="slide"><img src="003.png" alt="Coldre Hammer PRO Mid-Ride Bélica"></div>
+    </div>
+
+    <!-- Navegação -->
+    <div class="navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+    </div>
+  </div>
+
+
+<br><br>
+<h1>Coldre Hammer PRO Mid-Ride Bélica</h1>
+<br>
+  <p>
+    O Coldre Hammer PRO Mid-Ride Bélica foi desenvolvido visando operacionalidade utilizando uma fita de perna, 
+    proporcionando leveza, mobilidade com conforto e segurança durante as operações. Acompanham 06 adaptadores para 
+    ajuste da retenção passiva, evitando que fique solta no coldre. O Coldre Hammer PRO Mid-Ride Bélica é forte, 
+    robusto e funcional, trazendo comodidade e eficiência no sistema de retenção da arma.
+  </p>
+<br>
+  <h2>Características</h2>
+<br>
+  <h3>Coldre Hammer PRO:</h3>
+  <br>
+  <ul>
+    <li>Coldre com retenção nível II;</li>
+    <li>1 retenção ativa através do protetor de botão de liberação da alça;</li>
+    <li>1 retenção ativa através da alça antiarrebatamento;</li>
+    <li>1 retenção passiva através dos adaptadores de guarda-mato;</li>
+    <li>Desenvolvido em polímero de alta resistência;</li>
+    <li>Adaptadores de guarda-mato removíveis para ajuste da retenção passiva;</li>
+    <li>Sistema de travamento Dual Lock System para evitar destravamento indevido;</li>
+    <li>Trava de segurança anti-arrebatamento tipo Thumb-Break;</li>
+    <li>Revestimento interno em couro legítimo para proteção e menor atrito;</li>
+    <li>Catraca rotativa para ajuste de angulação do coldre na base;</li>
+    <li>Compatível com outras plataformas Bélica.</li>
+  </ul>
+<br>
+  <h3>Adaptador de Cintura Mid-Ride:</h3>
+  <ul>
+    <li>Desenvolvido em polímero de alta resistência;</li>
+    <li>Plataforma confortável e anatômica;</li>
+    <li>Passador de cinto de até 55 mm;</li>
+    <li>Fita emborrachada aderente de 90 cm com fecho de 3 pontos;</li>
+    <li>Possibilidade de uso sem a fita emborrachada.</li>
+  </ul>
+<br>
+  <h2>Compatível com:</h2>
+<br>
+  <ul>
+    <li><strong>Beretta:</strong> APX, 92</li>
+    <li><strong>Imbel:</strong> MD1, MD2, MD5, MD6, MD7</li>
+    <li><strong>Glock:</strong> G17, G19, G22, G23, G25</li>
+    <li><strong>Taurus:</strong> TS9, G3 TORO (sem mira holográfica), PT 24/7, PT 58 HC PLUS, PT 59, PT 92, PT 100, PT 838, PT 917c, PT 840, PT 1911, TX22</li>
+    <li><strong>Tisas:</strong> ZIGANA PX-9</li>
+    <li><strong>CZ:</strong> 75P-07 DUTY 380</li>
+    <li><strong>Sig Sauer:</strong> P320 XFull, P320 M17, P320 M18</li>
+  </ul>
+  <br>
+  <p><em>*Pode ser compatível com outros modelos de pistolas não listados, mediante teste.</em></p>
+<br>
+  <h2>Adaptador de Guarda-mato vs Pistolas</h2>
+<br>
+  <ul>
+    <li>Adaptador nº 0 - Taurus TS9</li>
+    <li>Adaptador nº 1 - Glock Geração 4/5</li>
+    <li>Adaptador nº 2 - Taurus PT 24/7</li>
+    <li>Adaptador nº 3 - PT 100**</li>
+    <li>Adaptador nº 4 - Imbel / Taurus PT 1911</li>
+    <li>Adaptador nº 5 - Beretta APX***</li>
+  </ul>
+  <br>
+  <p>
+    <em>
+      * Pistolas com estrutura semelhante também podem ser compatíveis, mediante teste.<br>
+      ** Modelos PT100 sem entalhe lateral podem encaixar de forma extremamente apertada no Adaptador nº 3.<br>
+      *** O Adaptador nº 5 acompanha apenas as versões 2023 do Coldre Hammer PRO. Versões anteriores não são compatíveis.
+    </em>
+    <br>
+  </p>
+<br>
+  <h2>Itens Inclusos</h2>
+<br>
+  <ul>
+    <li>01 Coldre Hammer PRO</li>
+    <li>01 Adaptador de cintura Mid-Ride</li>
+    <li>06 Adaptadores de guarda-mato</li>
+    <li>01 Fita de fixação para perna</li>
+    <li>01 Chave para ajuste</li>
+  </ul>
+<br>
+ 
+
+  <h3>Adaptador de Cintura Mid-Ride:</h3>
+  <br>
+  <ul>
+    <li>Comprimento: 16,8 cm</li>
+    <li>Largura: 10 cm</li>
+    <li>Espessura: 2,6 cm</li>
+  </ul>
+<br>
+  <p><strong>Peso total:</strong> 0,547g</p>
+
+<br>
+
+
+<br>
+
+<cl/div>
+
+</body>
+</html>
+
+     <footer>
+    <div class="container">
+      <p>&copy; 2025 Catálogo Bélico. Todos os direitos reservados.</p>
+    </div>
+  </footer>

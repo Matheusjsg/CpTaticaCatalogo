@@ -110,9 +110,10 @@ nav a:hover {
   width: 130px;
   border-radius: 4px;
   height: auto;
-    display: inline-block; /* Permite que a imagem seja tratada como um bloco */
+  display: inline-block; /* Permite que a imagem seja tratada como um bloco */
   vertical-align: middle; /* Alinha verticalmente a imagem do logo */
 }
+
 
 .card img {
   width: 100%;
@@ -121,6 +122,26 @@ nav a:hover {
   height: 300px; /* alterando para manter a proporção */
   object-fit: cover; /* Mantém a proporção da imagem */
 }
+
+.card .carabina {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  height: 50px; /* alterando para manter a proporção */
+  object-fit: cover; /* Mantém a proporção da imagem */
+  margin-top: 100px; /* Espaçamento superior para a imagem da carabina */
+  margin-block-end: 100px;
+}
+
+.card .equip {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  height: 150px; /* alterando para manter a proporção */
+  object-fit: cover; /* Mantém a proporção da imagem */
+ 
+}
+
 
 .card h3 {
   margin-bottom: 10px;
