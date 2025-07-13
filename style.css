@@ -31,8 +31,8 @@ body {
 }
 
 .menu a:hover {
-  background-color: #e4c203a8;
-  color: #010701;
+  background-color: #cc0000a4;
+  color: #ffffff;
 }
 
 .container {
@@ -74,10 +74,10 @@ nav a:hover {
 
 /* Hero */
 .hero {
-  background: url('https://www.cbc.com.br/images/bg-municoes.jpg') no-repeat center center/cover;
+  background-color: #b10000bb;
   color: white;
   text-align: center;
-  padding: 80px 20px;
+ 
 }
 
 .hero h2 {
@@ -107,6 +107,11 @@ nav a:hover {
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
+}
+.card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
 }
 
 .card:hover {
